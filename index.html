@@ -13,6 +13,7 @@
       content="bill - 223 paytm - 107  electricity - 82 Online-recharge UPI Send Money"
     />
     <link rel="icon" type="image/x-icon" href="/assets/paytmlogo.png" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="hero.css" />
     <link rel="stylesheet" href="bills.css" />
@@ -211,8 +212,9 @@
 
     <section class="payment-instructions">
       <h1 class="payment-instructions-head">Paytm Payment Instruments</h1>
-      <div class="paytm-wallet">
-        <div>
+
+      <div class="big-card paytm-wallet">
+        <div class="wallet-right-sec">
           <img src="./assets/main/paytm-wallet-logo.png" alt="wallet-logo" />
           <h2>The Fastest Way to Pay In-store & Online.</h2>
           <p>
@@ -221,11 +223,44 @@
           </p>
           <button class="hero-btn">Download Paytm App</button>
         </div>
-        <img src="/assets/main/paytm-wallet.png" alt="wallet-img" />
+        <div class="wallet-img">
+          <img src="/assets/main/paytm-wallet.png" alt="wallet-img" />
+        </div>
       </div>
 
-      <div class="upi-transfer"></div>
-      <div class="paytm-postpad"></div>
+      <div class="big-card upi-transfer">
+        <div class="upi-sec">
+          <img src="./assets/main/paytm-wallet-logo.png" alt="wallet-logo" />
+          <h2>Pay anyone directly from your bank account.</h2>
+          <p>
+            Pay anyone, everywhere. Make contactless & secure payments in-stores
+            or online using Paytm Wallet or Directly from your Bank Account.
+            Plus, send & receive money from anyone.
+          </p>
+          <button class="hero-btn">Download Paytm App</button>
+        </div>
+        <div class="wallet-img">
+          <img src="/assets/main/paytm-UPI.png" alt="upi-img" />
+        </div>
+      </div>
+      <div class="big-card paytm-postpad">
+        <div class="postpad-sec">
+          <img src="./assets/main/paytm-wallet-logo.png" alt="wallet-logo" />
+          <h2>
+            Want it? <br />
+            No more waiting for it.
+          </h2>
+          <p>
+            With Paytm Postpaid, your wishlist doesn't have to be on the
+            waitlist. Shop for the things you want today and pay for them next
+            month.
+          </p>
+          <button class="hero-btn">Download Paytm App</button>
+        </div>
+        <div class="wallet-img">
+          <img src="/assets/main/paytm-postpad.png" alt="upi-img" />
+        </div>
+      </div>
     </section>
   </body>
 </html>

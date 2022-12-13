@@ -1,0 +1,38 @@
+.payment-instructions {
+  padding: 2.5rem 1.5rem;
+  background-color: #f5f7fa;
+}
+.big-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 2.25rem;
+  padding: 5rem;
+}
+.wallet-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wallet-img > img {
+  width: 540px;
+}
+.wallet-right-sec > img {
+  height: 75px;
+  width: auto;
+  margin-right: 12px;
+}
+.wallet-right-sec > h2 {
+  margin-top: 48px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.wallet-right-sec > p {
+  padding: 24px 0 30px;
+  line-height: 26px;
+}
+.wallet-right-sec > button {
+  margin-top: 1.25rem;
+}
