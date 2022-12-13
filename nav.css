@@ -7,15 +7,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  height: 10vh;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+  height: 5.75rem;
+  background: #fff;
+  width: 100%;
+  position: sticky;
+  padding: 0 4rem;
+  top: 0;
 }
 .paytm-nav-logo {
-  max-width: 138px;
-  max-height: 5 0px;
+  max-width: 10rem;
+  max-height: 3rem;
 }
 .nav-box {
   list-style: none;
@@ -55,4 +57,12 @@ div > a {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.sort-msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e8e680;
+  height: 2.5rem;
 }
