@@ -68,3 +68,32 @@ div > a {
   background-color: #e8e8e680;
   height: 2.5rem;
 }
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: #00bcef;
+  padding: 0.35rem 0.25rem;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.signup > a {
+  color: #eee;
+  padding-left: 1.5rem;
+}
+
+.signup > img {
+  filter: contrast(100%);
+  height: 1.75rem;
+  background-color: #002a6d;
+  padding: 2px 4px;
+  border-radius: 50%;
+}
+.signup:hover {
+  background-color: #002a6d;
+}
+.signup:hover > img {
+  background-color: #00bcef;
+}
