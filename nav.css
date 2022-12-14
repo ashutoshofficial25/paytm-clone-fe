@@ -5,12 +5,17 @@
 }
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Regular.ttf"),
-    url("./assets/fonts/Poppins-Bold.ttf") format("truetype"),
-    url("./assets/fonts/Poppins-Medium.ttf") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
 }
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("svg");
+}
+
 body {
   font-family: "Poppins";
   font-weight: 600;
@@ -24,9 +29,9 @@ body {
   height: 5.75rem;
   background: #fff;
   width: 100%;
-  position: sticky;
+  /* position: sticky; */
   padding: 0 4rem;
-  top: 0;
+  /* top: 0; */
 }
 .paytm-nav-logo {
   max-width: 10rem;

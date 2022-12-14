@@ -1,38 +1,70 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf"),
+    url("./assets/fonts/Poppins-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Poppins-Medium.ttf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .payment-instructions {
+  font-family: "Poppins";
   padding: 2.5rem 1.5rem;
   background-color: #f5f7fa;
 }
+
+.payment-instructions > h1 {
+  font-size: 2.75rem;
+  margin: 80px 64px 35px;
+  line-height: 50px;
+}
+
 .big-card {
   display: flex;
   justify-content: space-between;
-  gap: 1.5rem;
   background-color: #fff;
   border-radius: 15px;
   margin: 2.25rem;
-  padding: 5rem;
+  margin: 0 80px;
+  padding: 80px 50px 80px 115px;
+  margin-bottom: 1.5rem;
 }
-.wallet-img {
+
+.card-left-img {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.wallet-img > img {
+.card-left-img > img {
   width: 540px;
 }
-.wallet-right-sec > img {
+.right-sec {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-logo-img {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.card-logo-img > img {
   height: 75px;
   width: auto;
   margin-right: 12px;
 }
-.wallet-right-sec > h2 {
+.card-logo-img > p {
+  line-height: 1.2;
+}
+.right-sec-content > h2 {
   margin-top: 48px;
   font-size: 36px;
-  font-weight: 700;
 }
-.wallet-right-sec > p {
+.right-sec-content > p {
   padding: 24px 0 30px;
   line-height: 26px;
 }
-.wallet-right-sec > button {
+.right-sec-content > button {
   margin-top: 1.25rem;
 }
