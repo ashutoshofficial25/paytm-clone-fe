@@ -58,7 +58,7 @@
 @media only screen and (max-width: 920px) {
   .book-pay,
   .recharge-bills {
-    padding: 1.25rem 2rem;
+    padding: 1rem 2rem;
   }
   .bills-head,
   .pay-head {
@@ -69,8 +69,8 @@
   .bills,
   .pay {
     width: 100px;
-    padding: 12px 9px 12px 12px;
-    margin-right: 26px;
+    padding: 11px 9px 11px 11px;
+    margin-right: 22px;
   }
   .bills-content,
   .pay-content {

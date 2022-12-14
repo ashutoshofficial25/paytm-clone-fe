@@ -138,9 +138,17 @@ div > a {
     display: block;
     height: 36px;
   }
+  .signup {
+    display: none;
+  }
   .nav-end-btns {
     display: flex;
     gap: 1rem;
     align-items: center;
+  }
+  .sort-msg {
+    height: 2.75rem;
+    font-size: 14px;
+    line-height: 1.2;
   }
 }

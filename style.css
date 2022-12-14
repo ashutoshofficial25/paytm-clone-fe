@@ -72,6 +72,31 @@
 /* responsive design css */
 @media only screen and (max-width: 920px) {
   .payment-instructions {
-    display: none;
+    padding: 2.5rem 1.5rem;
+  }
+  .payment-instructions > h1 {
+    font-size: 1.75rem;
+    margin: 20px 14px 16px;
+    line-height: 30px;
+  }
+  .big-card {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 1.25rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 3.5rem;
+  }
+  .card-left-img {
+    justify-content: center;
+  }
+  .card-left-img > img {
+    max-width: 400px;
+  }
+  .right-sec {
+    width: 90%;
+  }
+  .right-sec-content > h2 {
+    font-size: 1.75rem;
+    line-height: 1.2;
   }
 }
