@@ -1,0 +1,19 @@
+.footer-container {
+  background-color: #f5f7fa;
+  padding: 90px 0 0;
+}
+.app-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2.25rem;
+}
+.download-paytm {
+  display: flex;
+  gap: 1rem;
+}
+.socal-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
