@@ -33,6 +33,9 @@ body {
   padding: 0 4rem;
   /* top: 0; */
 }
+.nav-tab {
+  display: none;
+}
 .paytm-nav-logo {
   max-width: 10rem;
   max-height: 3rem;
@@ -85,6 +88,7 @@ div > a {
   align-items: center;
   justify-content: center;
   background-color: #e8e8e680;
+  text-align: center;
   height: 2.5rem;
 }
 .signup {
@@ -115,4 +119,28 @@ div > a {
 }
 .signup:hover > img {
   background-color: #00bcef;
+}
+
+/* responsive design css */
+
+@media only screen and (max-width: 920px) {
+  .nav-container {
+    padding: 0 1.25rem;
+  }
+  .nav-box {
+    display: none;
+  }
+  .paytm-nav-logo {
+    max-width: 7rem;
+    max-height: 2rem;
+  }
+  .nav-tab {
+    display: block;
+    height: 36px;
+  }
+  .nav-end-btns {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
 }
