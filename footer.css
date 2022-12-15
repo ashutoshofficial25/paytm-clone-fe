@@ -1,8 +1,8 @@
 .footer-container {
   /* background-color: #f5f7fa;
    */
-  background-color: rebeccapurple;
-  padding: 90px 0 0;
+
+  padding: 90px 0 120px 0;
 }
 .app-links {
   display: flex;
@@ -25,4 +25,42 @@
 }
 
 .investor-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-left: 1rem;
+}
+
+.investor-title > hr {
+  flex: 1;
+}
+.investor-title > p {
+  cursor: pointer;
+}
+.investor-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0.75rem 2.75rem 2.75rem 5.75rem;
+  color: gray;
+  font-weight: 500 !important;
+}
+.line-2 {
+  margin-top: 0rem;
+}
+.investor-links > li:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.sky-line,
+.blue-line {
+  height: 0.8rem;
+  width: 100%;
+}
+.sky-line {
+  background-color: #00baf2;
+}
+.blue-line {
+  background-color: #0d3e80;
 }
