@@ -160,6 +160,15 @@
 
 /*  Financial Services CSS */
 
+.financial-services-container {
+  margin: 3.25rem 0;
+}
+.financial-services-container > h1 {
+  margin-left: 5.25rem;
+  font-size: 2.75rem;
+  line-height: 50px;
+}
+
 .finance-card {
   height: 90vh;
   display: flex;
@@ -174,8 +183,39 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.finance-left-section {
+  width: 50%;
+}
+.finance-left-section > img {
+  margin-bottom: 1.75rem;
+}
+.finance-left-section > h1 {
+  margin: 1rem 0;
+  font-size: 40px;
+  line-height: 1.1;
+}
+.finance-left-section > p {
+  margin: 1.35rem 0;
+  margin-right: 20%;
+  font-size: 18px;
+  line-height: 1.2;
+  padding-bottom: 1.2rem;
+}
+
+.finance-left-section > button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.finance-left-section > button:hover {
+  background-color: #fff;
+  color: #000;
+}
 .finance-right-section > img {
-  max-width: 440px;
+  max-width: 540px;
 }
 
 @media only screen and (max-width: 920px) {
