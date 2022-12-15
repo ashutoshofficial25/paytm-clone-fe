@@ -1,5 +1,7 @@
 .footer-container {
-  background-color: #f5f7fa;
+  /* background-color: #f5f7fa;
+   */
+  background-color: rebeccapurple;
   padding: 90px 0 0;
 }
 .app-links {
@@ -16,4 +18,11 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+.hr-line {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.investor-title {
 }
