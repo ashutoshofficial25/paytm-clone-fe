@@ -157,3 +157,29 @@
     max-width: 340px;
   }
 }
+
+/*  Financial Services CSS */
+
+.finance-card {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 50px 80px 115px;
+  align-items: center;
+}
+/* special-background-section */
+.paytm-money {
+  background-image: url("/assets/paytm-money-bg.png");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.finance-right-section > img {
+  max-width: 440px;
+}
+
+@media only screen and (max-width: 920px) {
+  .financial-services-container {
+    display: none;
+  }
+}
