@@ -87,7 +87,7 @@
     justify-content: center;
   }
   .card-left-img > img {
-    max-width: 400px;
+    max-width: 350px;
   }
   .right-sec {
     width: 90%;
@@ -130,4 +130,30 @@
 
 .credit-card-main-img {
   height: 296px;
+}
+/* Credit-card section responsive css */
+@media only screen and (max-width: 920px) {
+  .credit-card-container {
+    flex-direction: column;
+    padding: 0rem 0.5rem;
+    gap: 1.75rem;
+  }
+  .credit-card {
+    width: 100%;
+    border-radius: 30px;
+    /* padding: 3.255rem 2.255rem 0 2.255rem; */
+  }
+  .credit-card-logo-img {
+    width: 210px;
+  }
+  .credit-card > h1 {
+    font-size: 36px;
+  }
+  .credit-card > p {
+    margin-right: 10%;
+    font-size: 16px;
+  }
+  .credit-card-main-img {
+    max-width: 340px;
+  }
 }
