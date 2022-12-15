@@ -64,3 +64,8 @@
 .blue-line {
   background-color: #0d3e80;
 }
+@media only screen and (max-width: 920px) {
+  .footer-container {
+    display: none;
+  }
+}
