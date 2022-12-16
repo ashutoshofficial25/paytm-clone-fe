@@ -170,7 +170,7 @@
 }
 
 .finance-card {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   padding: 80px 50px 80px 115px;
@@ -179,7 +179,7 @@
 /* special-background-section */
 .paytm-money {
   background-image: url("/assets/paytm-money-bg.png");
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -190,7 +190,7 @@
   margin-bottom: 1.75rem;
 }
 .finance-left-section > h1 {
-  margin: 1rem 0;
+  margin: 1.75rem 0;
   font-size: 40px;
   line-height: 1.1;
 }
