@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
-}
-
 .book-pay {
   background-color: #004b87;
   padding: 3.25rem 3rem;
